@@ -1,0 +1,83 @@
+.container{
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+}
+.container .h-nome{
+    width: 100%;
+    min-height: 100%;
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+.container .h-nome h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: black;
+}
+.container .h-nome h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #00e0ff;
+    
+}
+
+/*sobre*/
+.container .h-sobre{
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 100px;
+}
+.container .h-sobre .h-title-sobre{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 25px;
+}
+.container .h-sobre .h-title-sobre h2 {
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:black;
+}
+.container .h-sobre .paragraf{
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+
+}
+/*sobre*/
+.container .h-experiencia .h-title-experiencia{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00e0ff;
+    margin-bottom: 50px;
+
+}
+container .h-experiencia .h-title-experiencia h2{
+  margin-top: 5%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.container .h-experiencia .h-itens{
+    width: 100%;
+    min-height: 100%;
+}
+.container .h-experiencia .h-itens .item { 
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   min-height: 220px;
+}
+ 
+
